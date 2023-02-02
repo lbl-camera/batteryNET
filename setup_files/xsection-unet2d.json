@@ -1,0 +1,23 @@
+{
+    "run_name" : "xsection-unet2d",
+    "training_data_dir": "//global/cfs/cdirs/als/users/ivzenyuk/dperl/cropped_xsection_images/",
+    "testing_data_dir": "//global/cfs/cdirs/als/users/ivzenyuk/dperl/cropped_xsection_images-test/",
+    "start_from_checkpoint": 0,
+    "orientation": "cross-sectional",
+    "spatial_dims": 2,
+    "train_patch_size": [512, 512],
+    "batch_size": 16,
+    "num_classes": 5,
+    "raw_labels": [0,1,2,3,4,5,6],
+    "output_labels": [-1,0,1,2,3,4,3],
+    "background_weight": 1,
+    "train_slices": [100, 611],
+    "xsection_slices": [100,-100,10],
+    "shear_range":0.25,
+    "scale_range":0.25,
+    "rotate_range":0.05,
+    "predict_slices": [0,3896],
+    "pred_patch_size": [512,512],
+    "use_cache": 0,
+    "epistemic_est": 0
+}

@@ -1,0 +1,19 @@
+name: batteryNET
+channels:
+  - defaults
+dependencies:
+  - python >= 3.8
+  - numpy >= 1.20
+  - scipy >= 1.7
+  - matplotlib >= 3.4
+  - conda-forge::scikit-image >= 0.18
+  - pytorch::pytorch # tested with 1.10.0 to 1.12.1
+  - pytorch::torchvision
+  - conda-forge::pytorch-lightning # tested with 1.6.4 to 1.7.7
+  - h5py
+  - tqdm
+  - conda-forge::pdbpp
+  - conda-forge::ipympl=0.8.6 # 0.8.6 for compatibility with NERSC jupyterjub as of Oct 2022
+  - pip
+  - pip:
+    - monai
