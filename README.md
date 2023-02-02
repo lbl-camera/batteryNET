@@ -20,15 +20,15 @@ This pipeline was developed to segment a dataset consisting of 25 different giga
 
 * Download repo
 ```
-git clone git@github.com:perlmutter/batteryNET.git
+git clone https://github.com/lbl-camera/batteryNET.git 
 ```
 * Create environment
 ```
 conda env create -f environment.yml
 ```
 * If adapting to a *new dataset*, adjust filepaths in 2 files:
-  *  [`constants.py`](https://github.com/perlmutter/batteryNET/blob/main/constants.py), such as path for saving results and 
-  *  [`xsection-unet2d.json`](https://github.com/perlmutter/batteryNET/blob/main/setup_files/xsection-unet2d.json) setup file following example in folder [`setup_files`](https://github.com/perlmutter/batteryNET/tree/main/setup_files)
+  *  [`constants.py`](https://github.com/lbl-camera/batteryNET/blob/main/constants.py), such as path for saving results and 
+  *  [`xsection-unet2d.json`](https://github.com/lbl-camera/batteryNET/blob/main/setup_files/xsection-unet2d.json) setup file following example in folder [`setup_files`](https://github.com/lbl-camera/batteryNET/tree/main/setup_files)
 
 ### Executing program
 
