@@ -128,6 +128,8 @@ in binary and source code form.
 
 ## References
 
+* [Huang, Perlmutter, Su, Quenum, Shevchenko, Zenyuk, Ushizima. Detecting lithium plating dynamics in a solid-state battery with operando X-ray computed tomography using machine learning, Nature Computational Materials](https://www.nature.com/articles/s41524-023-01039-y)
+* [Quenum, Zenyuk, Ushizima. Lithium Metal Battery Quality Control via Transformer–CNN Segmentation](https://www.mdpi.com/2313-433X/9/6/111)
 * Core segmentation code was based on this monai tutorial:
   * [Spleen 3D segmentation with MONAI](https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/spleen_segmentation_3d_lightning.ipynb)
 * Uncertainty estimation model was based on:
